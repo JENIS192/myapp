@@ -1,0 +1,2 @@
+# Dev/preview proxy target (tier-1 -> tier-2). The browser only talks to its own origin, so no CORS is needed.
+VITE_PROXY_TARGET=http://localhost:5000
